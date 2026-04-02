@@ -77,7 +77,8 @@ export class VNPayService {
     // Tạo query string cho signing (encode: false)
     const signData = qs.stringify(vnpParams, { encode: false })
     
-    console.log('📝 SignData:', signData.substring(0, 100) + '...')
+    console.log('📝 Full SignData:', signData)
+    console.log('📝 SignData length:', signData.length)
     
     // Tạo secure hash
     const hmac = crypto.createHmac('sha512', this.config.hashSecret)
@@ -89,6 +90,7 @@ export class VNPayService {
 
     console.log('✅ VNPay Payment URL Created')
     console.log('🔐 SecureHash:', signed)
+    console.log('🔐 HashSecret length:', this.config.hashSecret.length)
 
     return paymentUrl
   }
@@ -199,15 +201,16 @@ export class VNPayService {
  */
 export function createVNPayService(): VNPayService {
   const config: VNPayConfig = {
-    tmnCode: process.env.VNPAY_TMN_CODE || '',
-    hashSecret: process.env.VNPAY_HASH_SECRET || '',
-    url: process.env.VNPAY_URL || '',
-    returnUrl: process.env.VNPAY_RETURN_URL || '',
+    tmnCode: (process.env.VNPAY_TMN_CODE || '').trim(),
+    hashSecret: (process.env.VNPAY_HASH_SECRET || '').trim(),
+    url: (process.env.VNPAY_URL || '').trim(),
+    returnUrl: (process.env.VNPAY_RETURN_URL || '').trim(),
   }
 
   console.log('🔧 VNPay Service Init:', {
     tmnCode: config.tmnCode,
-    hasHashSecret: !!config.hashSecret,
+    tmnCodeLength: config.tmnCode.length,
+    hashSecretLength: config.hashSecret.length,
     url: config.url,
     returnUrl: config.returnUrl
   })
