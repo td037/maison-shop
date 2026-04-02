@@ -1,0 +1,4 @@
+VNPay Integration - Version 2.0
+Last updated: 2024
+This file confirms VNPay code is deployed.
+If you can see this file, the deployment is working.
