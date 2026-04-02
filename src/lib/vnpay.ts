@@ -1,5 +1,5 @@
 import crypto from 'crypto'
-import querystring from 'querystring'
+import qs from 'qs'
 
 export interface VNPayConfig {
   tmnCode: string
@@ -75,7 +75,7 @@ export class VNPayService {
     vnpParams = this.sortObject(vnpParams)
 
     // Tạo query string cho signing (encode: false)
-    const signData = querystring.stringify(vnpParams, { encode: false })
+    const signData = qs.stringify(vnpParams, { encode: false })
     
     console.log('📝 SignData:', signData.substring(0, 100) + '...')
     
@@ -85,7 +85,7 @@ export class VNPayService {
     vnpParams.vnp_SecureHash = signed
 
     // Tạo URL cuối cùng (encode: true)
-    const paymentUrl = this.config.url + '?' + querystring.stringify(vnpParams, { encode: true })
+    const paymentUrl = this.config.url + '?' + qs.stringify(vnpParams, { encode: true })
 
     console.log('✅ VNPay Payment URL Created')
     console.log('🔐 SecureHash:', signed)
@@ -103,7 +103,7 @@ export class VNPayService {
 
     // Sắp xếp params
     const sortedParams = this.sortObject(vnpParams)
-    const signData = querystring.stringify(sortedParams, { encode: false })
+    const signData = qs.stringify(sortedParams, { encode: false })
     
     // Tạo hash để so sánh
     const hmac = crypto.createHmac('sha512', this.config.hashSecret)
