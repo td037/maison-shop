@@ -71,26 +71,29 @@ export class VNPayService {
       vnpParams.vnp_BankCode = params.bankCode
     }
 
-    // Sắp xếp params theo alphabet
+    // Sắp xếp và encode params
     vnpParams = this.sortObject(vnpParams)
 
-    // Tạo query string cho signing (encode: false)
+    // Tạo query string cho signing (encode: false vì đã encode ở sortObject)
     const signData = qs.stringify(vnpParams, { encode: false })
     
-    console.log('📝 Full SignData:', signData)
+    console.log('📝 Encoded SignData:', signData)
     console.log('📝 SignData length:', signData.length)
     
     // Tạo secure hash
     const hmac = crypto.createHmac('sha512', this.config.hashSecret)
     const signed = hmac.update(Buffer.from(signData, 'utf-8')).digest('hex')
-    vnpParams.vnp_SecureHash = signed
+    
+    // Thêm SecureHash vào params (không encode)
+    vnpParams['vnp_SecureHash'] = signed
 
-    // Tạo URL cuối cùng (encode: true)
-    const paymentUrl = this.config.url + '?' + qs.stringify(vnpParams, { encode: true })
+    // Tạo URL cuối cùng (encode: false vì đã encode ở sortObject)
+    const paymentUrl = this.config.url + '?' + qs.stringify(vnpParams, { encode: false })
 
     console.log('✅ VNPay Payment URL Created')
     console.log('🔐 SecureHash:', signed)
     console.log('🔐 HashSecret length:', this.config.hashSecret.length)
+    console.log('🌐 Payment URL:', paymentUrl.substring(0, 150) + '...')
 
     return paymentUrl
   }
@@ -103,13 +106,18 @@ export class VNPayService {
     delete vnpParams.vnp_SecureHash
     delete vnpParams.vnp_SecureHashType
 
-    // Sắp xếp params
+    // Sắp xếp và encode params
     const sortedParams = this.sortObject(vnpParams)
     const signData = qs.stringify(sortedParams, { encode: false })
+    
+    console.log('🔍 Verify SignData:', signData)
     
     // Tạo hash để so sánh
     const hmac = crypto.createHmac('sha512', this.config.hashSecret)
     const signed = hmac.update(Buffer.from(signData, 'utf-8')).digest('hex')
+    
+    console.log('🔍 Received Hash:', secureHash)
+    console.log('🔍 Calculated Hash:', signed)
 
     if (secureHash === signed) {
       // Kiểm tra response code
@@ -148,13 +156,15 @@ export class VNPayService {
   }
 
   /**
-   * Sắp xếp object theo key
+   * Sắp xếp object theo key và encode values
    */
   private sortObject(obj: any): any {
     const sorted: any = {}
     const keys = Object.keys(obj).sort()
     keys.forEach((key) => {
-      sorted[key] = obj[key]
+      const encodedKey = encodeURIComponent(key)
+      const encodedValue = encodeURIComponent(String(obj[key])).replace(/%20/g, '+')
+      sorted[encodedKey] = encodedValue
     })
     return sorted
   }
