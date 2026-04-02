@@ -3,6 +3,9 @@ import { createVNPayService } from '@/lib/vnpay'
 import connectDB from '@/lib/db/connect'
 import Order from '@/models/Order'
 
+// Force dynamic rendering for this route
+export const dynamic = 'force-dynamic'
+
 export async function GET(request: NextRequest) {
   try {
     const searchParams = request.nextUrl.searchParams

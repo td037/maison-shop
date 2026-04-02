@@ -57,7 +57,7 @@ export class VNPayService {
     vnpParams = this.sortObject(vnpParams)
 
     // Tạo query string
-    const signData = querystring.stringify(vnpParams, { encode: false })
+    const signData = querystring.stringify(vnpParams)
     
     // Tạo secure hash
     const hmac = crypto.createHmac('sha512', this.config.hashSecret)
@@ -65,7 +65,7 @@ export class VNPayService {
     vnpParams.vnp_SecureHash = signed
 
     // Tạo URL cuối cùng
-    const paymentUrl = this.config.url + '?' + querystring.stringify(vnpParams, { encode: false })
+    const paymentUrl = this.config.url + '?' + querystring.stringify(vnpParams)
 
     return paymentUrl
   }
@@ -80,7 +80,7 @@ export class VNPayService {
 
     // Sắp xếp params
     const sortedParams = this.sortObject(vnpParams)
-    const signData = querystring.stringify(sortedParams, { encode: false })
+    const signData = querystring.stringify(sortedParams)
     
     // Tạo hash để so sánh
     const hmac = crypto.createHmac('sha512', this.config.hashSecret)
