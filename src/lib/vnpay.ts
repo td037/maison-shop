@@ -58,6 +58,14 @@ export class VNPayService {
       vnp_ExpireDate: expireDate,
     }
 
+    console.log('📋 VNPay Config:', {
+      tmnCode: this.config.tmnCode,
+      returnUrl: this.config.returnUrl,
+      url: this.config.url
+    })
+
+    console.log('📦 VNPay Params (before sort):', vnpParams)
+
     // Thêm bank code nếu có
     if (params.bankCode) {
       vnpParams.vnp_BankCode = params.bankCode
@@ -76,6 +84,9 @@ export class VNPayService {
 
     // Tạo URL cuối cùng
     const paymentUrl = this.config.url + '?' + querystring.stringify(vnpParams)
+
+    console.log('✅ VNPay Payment URL Created:', paymentUrl)
+    console.log('🔐 SecureHash:', signed.substring(0, 20) + '...')
 
     return paymentUrl
   }
@@ -192,8 +203,21 @@ export function createVNPayService(): VNPayService {
     returnUrl: process.env.VNPAY_RETURN_URL || '',
   }
 
+  console.log('🔧 VNPay Service Init:', {
+    tmnCode: config.tmnCode,
+    hasHashSecret: !!config.hashSecret,
+    url: config.url,
+    returnUrl: config.returnUrl
+  })
+
   // Validate config
   if (!config.tmnCode || !config.hashSecret || !config.url || !config.returnUrl) {
+    console.error('❌ VNPay Config Missing:', {
+      hasTmnCode: !!config.tmnCode,
+      hasHashSecret: !!config.hashSecret,
+      hasUrl: !!config.url,
+      hasReturnUrl: !!config.returnUrl
+    })
     throw new Error('VNPay configuration is incomplete. Please check environment variables.')
   }
 
