@@ -21,10 +21,9 @@ const provinces = [
 const wards = ['Phường 1', 'Phường 2', 'Phường 3', 'Phường 4', 'Phường 5', 'Phường 6', 'Phường 7', 'Phường 8', 'Phường 9', 'Phường 10']
 const paymentMethods = [
   { id: 'cod', label: 'Thanh toán khi nhận hàng (COD)', icon: '🏠' },
-  // { id: 'bank', label: 'Chuyển khoản ngân hàng', icon: '🏦' },
+  { id: 'vnpay', label: 'VNPay (ATM / Visa / Mastercard)', icon: '💳' },
   // { id: 'momo', label: 'Ví MoMo', icon: '💜' },
   // { id: 'zalopay', label: 'ZaloPay', icon: '💙' },
-  // { id: 'card', label: 'Thẻ tín dụng / Ghi nợ', icon: '💳' },
 ]
 
 export default function CheckoutPage() {
@@ -173,8 +172,37 @@ export default function CheckoutPage() {
         console.warn('Failed to clear cart:', err)
       }
 
-      // Redirect to order details page
-      router.push(`/order?orderId=${orderData.data?._id}`)
+      // Xử lý theo payment method
+      if (paymentMethod === 'vnpay') {
+        // Tạo VNPay payment URL
+        try {
+          const vnpayRes = await fetch('/api/payments/vnpay', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              orderId: orderData.data._id,
+              amount: total,
+              orderInfo: `Thanh toan don hang ${orderData.data._id}`,
+            }),
+          })
+
+          const vnpayData = await vnpayRes.json()
+
+          if (!vnpayRes.ok) {
+            throw new Error(vnpayData.error || 'Failed to create VNPay payment')
+          }
+
+          // Redirect to VNPay
+          window.location.href = vnpayData.data.paymentUrl
+        } catch (error) {
+          console.error('VNPay error:', error)
+          alert('Lỗi khi tạo thanh toán VNPay: ' + (error instanceof Error ? error.message : 'Không xác định'))
+          setIsLoading(false)
+        }
+      } else {
+        // COD - redirect to order details page
+        router.push(`/order?orderId=${orderData.data?._id}`)
+      }
     } catch (error) {
       console.error('Order error:', error)
       alert('Lỗi: ' + (error instanceof Error ? error.message : 'Không xác định'))

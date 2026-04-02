@@ -128,7 +128,7 @@ const orderSchema = new mongoose.Schema(
     },
     paymentMethod: {
       type: String,
-      enum: ['cod', 'bank_transfer', 'momo', 'zalopay', 'card'],
+      enum: ['cod', 'bank_transfer', 'momo', 'zalopay', 'card', 'vnpay'],
       required: true,
     },
     paymentStatus: {
@@ -138,6 +138,17 @@ const orderSchema = new mongoose.Schema(
       index: true,
     },
     paymentDetails: paymentDetailsSchema,
+    // VNPay specific fields
+    vnpayTransactionNo: String,
+    vnpayBankCode: String,
+    vnpayPayDate: String,
+    vnpayResponseCode: String,
+    status: {
+      type: String,
+      enum: ['pending', 'confirmed', 'preparing', 'shipping', 'delivered', 'cancelled', 'paid'],
+      default: 'pending',
+      index: true,
+    },
     orderStatus: {
       type: String,
       enum: ['pending', 'confirmed', 'preparing', 'shipping', 'delivered', 'cancelled'],
