@@ -14,6 +14,10 @@ const nextConfig = {
       { protocol: 'https', hostname: 'plus.unsplash.com' },
     ],
   },
+  // Force new build - VNPay integration v2
+  generateBuildId: async () => {
+    return 'vnpay-integration-' + Date.now()
+  },
 }
 
 module.exports = nextConfig

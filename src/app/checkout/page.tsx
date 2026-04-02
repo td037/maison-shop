@@ -19,6 +19,7 @@ const provinces = [
   { name: 'Biên Hòa', districts: ['Thành phố Biên Hòa', 'Tân Phú', 'Long Thạnh', 'Nhơn Trạch'] },
 ]
 const wards = ['Phường 1', 'Phường 2', 'Phường 3', 'Phường 4', 'Phường 5', 'Phường 6', 'Phường 7', 'Phường 8', 'Phường 9', 'Phường 10']
+// Payment methods - Updated for VNPay integration
 const paymentMethods = [
   { id: 'cod', label: 'Thanh toán khi nhận hàng (COD)', icon: '🏠' },
   { id: 'vnpay', label: 'VNPay (ATM / Visa / Mastercard)', icon: '💳' },
