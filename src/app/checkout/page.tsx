@@ -9,6 +9,7 @@ import { formatPrice } from '@/lib/data'
 import { useAuth } from '@/app/providers'
 
 export const dynamic = 'force-dynamic'
+// VNPay Integration - Build ID: v2.0.1
 
 const steps = ['Giỏ hàng', 'Giao hàng', 'Thanh toán', 'Xác nhận']
 const provinces = [
