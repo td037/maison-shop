@@ -74,19 +74,21 @@ export class VNPayService {
     // Sắp xếp params theo alphabet
     vnpParams = this.sortObject(vnpParams)
 
-    // Tạo query string
-    const signData = querystring.stringify(vnpParams)
+    // Tạo query string cho signing (encode: false)
+    const signData = querystring.stringify(vnpParams, { encode: false })
+    
+    console.log('📝 SignData:', signData.substring(0, 100) + '...')
     
     // Tạo secure hash
     const hmac = crypto.createHmac('sha512', this.config.hashSecret)
     const signed = hmac.update(Buffer.from(signData, 'utf-8')).digest('hex')
     vnpParams.vnp_SecureHash = signed
 
-    // Tạo URL cuối cùng
-    const paymentUrl = this.config.url + '?' + querystring.stringify(vnpParams)
+    // Tạo URL cuối cùng (encode: true)
+    const paymentUrl = this.config.url + '?' + querystring.stringify(vnpParams, { encode: true })
 
-    console.log('✅ VNPay Payment URL Created:', paymentUrl)
-    console.log('🔐 SecureHash:', signed.substring(0, 20) + '...')
+    console.log('✅ VNPay Payment URL Created')
+    console.log('🔐 SecureHash:', signed)
 
     return paymentUrl
   }
@@ -101,7 +103,7 @@ export class VNPayService {
 
     // Sắp xếp params
     const sortedParams = this.sortObject(vnpParams)
-    const signData = querystring.stringify(sortedParams)
+    const signData = querystring.stringify(sortedParams, { encode: false })
     
     // Tạo hash để so sánh
     const hmac = crypto.createHmac('sha512', this.config.hashSecret)
