@@ -1,0 +1,477 @@
+[
+  {
+    "name": "Áo Blazer Oversize Cao Cấp",
+    "slug": "ao-blazer-oversize-discount",
+    "description": "Áo blaze oversize với chất liệu cao cấp, thiết kế hiện đại",
+    "shortDescription": "Áo blazer oversize",
+    "price": 1890000,
+    "salePrice": 1290000,
+    "costPrice": 850000,
+    "category": { "$oid": "69c66dbe35a190f20c3618fa" },
+    "brand": "MAISON",
+    "sku": "AO-BLAZER-001",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80",
+        "alt": "Áo Blazer",
+        "displayOrder": 0
+      }
+    ],
+    "totalStock": 45,
+    "isFeatured": true,
+    "isNew": false,
+    "isActive": true,
+    "rating": { "average": 4.8, "count": 124 },
+    "tags": ["blazer", "áo", "giảm giá"]
+  },
+  {
+    "name": "Quần Wide Leg Linen",
+    "slug": "quan-wide-leg-linen-discount",
+    "description": "Quần wide leg chất liệu linen thoáng mát",
+    "shortDescription": "Quần wide leg linen",
+    "price": 1190000,
+    "salePrice": 890000,
+    "costPrice": 600000,
+    "category": { "$oid": "69c66dbe35a190f20c3618fb" },
+    "brand": "MAISON",
+    "sku": "QUAN-LINEN-001",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=600&q=80",
+        "alt": "Quần Wide Leg",
+        "displayOrder": 0
+      }
+    ],
+    "totalStock": 38,
+    "isFeatured": true,
+    "isNew": true,
+    "isActive": true,
+    "rating": { "average": 4.6, "count": 89 },
+    "tags": ["quần", "linen", "giảm giá"]
+  },
+  {
+    "name": "Túi Tote Canvas Thêu",
+    "slug": "tui-tote-canvas-theu-discount",
+    "description": "Túi tote canvas với chi tiết thêu tinh tế",
+    "shortDescription": "Túi tote canvas",
+    "price": 890000,
+    "salePrice": 690000,
+    "costPrice": 450000,
+    "category": { "$oid": "69c66dbe35a190f20c3618fd" },
+    "brand": "MAISON",
+    "sku": "TUI-CANVAS-001",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1544816155-12df9643f363?w=600&q=80",
+        "alt": "Túi Tote",
+        "displayOrder": 0
+      }
+    ],
+    "totalStock": 62,
+    "isFeatured": true,
+    "isNew": true,
+    "isActive": true,
+    "rating": { "average": 4.7, "count": 156 },
+    "tags": ["túi", "canvas", "giảm giá"]
+  },
+  {
+    "name": "Áo Len Merino Cổ Tròn",
+    "slug": "ao-len-merino-discount",
+    "description": "Áo len merino 100% cao cấp, ấm áp",
+    "shortDescription": "Áo len merino",
+    "price": 1990000,
+    "salePrice": 1590000,
+    "costPrice": 1000000,
+    "category": { "$oid": "69c66dbe35a190f20c3618fa" },
+    "brand": "MAISON",
+    "sku": "AO-MERINO-001",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=600&q=80",
+        "alt": "Áo Len",
+        "displayOrder": 0
+      }
+    ],
+    "totalStock": 28,
+    "isFeatured": false,
+    "isNew": false,
+    "isActive": true,
+    "rating": { "average": 4.5, "count": 73 },
+    "tags": ["áo", "len merino", "giảm giá"]
+  },
+  {
+    "name": "Kính Mắt Vuông Acetate",
+    "slug": "kinh-mat-vuong-acetate-discount",
+    "description": "Kính mắt vuông chất liệu acetate cao cấp",
+    "shortDescription": "Kính mắt vuông",
+    "price": 1190000,
+    "salePrice": 890000,
+    "costPrice": 600000,
+    "category": { "$oid": "69c66dbe35a190f20c3618fe" },
+    "brand": "MAISON",
+    "sku": "KINH-ACETATE-001",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1556306535-0f09a537f0a3?w=600&q=80",
+        "alt": "Kính Mắt",
+        "displayOrder": 0
+      }
+    ],
+    "totalStock": 35,
+    "isFeatured": false,
+    "isNew": false,
+    "isActive": true,
+    "rating": { "average": 4.4, "count": 48 },
+    "tags": ["kính", "phụ kiện", "giảm giá"]
+  },
+  {
+    "name": "Áo Sơ Mi Linen Trắng",
+    "slug": "ao-so-mi-linen-trang-discount",
+    "description": "Áo sơ mi linen 100% trắng, thoáng mát",
+    "shortDescription": "Áo sơ mi linen",
+    "price": 1290000,
+    "salePrice": 890000,
+    "costPrice": 650000,
+    "category": { "$oid": "69c66dbe35a190f20c3618fa" },
+    "brand": "MAISON",
+    "sku": "AO-LINEN-001",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1554766682-d42f25c1b271?w=600&q=80",
+        "alt": "Áo Sơ Mi",
+        "displayOrder": 0
+      }
+    ],
+    "totalStock": 55,
+    "isFeatured": true,
+    "isNew": true,
+    "isActive": true,
+    "rating": { "average": 4.7, "count": 102 },
+    "tags": ["áo sơ mi", "linen", "giảm giá"]
+  },
+  {
+    "name": "Quần Jeans Skinny Đen",
+    "slug": "quan-jeans-skinny-den-discount",
+    "description": "Quần jeans skinny màu đen tối, khít ôm",
+    "shortDescription": "Quần jeans skinny",
+    "price": 890000,
+    "salePrice": 590000,
+    "costPrice": 400000,
+    "category": { "$oid": "69c66dbe35a190f20c3618fb" },
+    "brand": "MAISON",
+    "sku": "QUAN-JEANS-001",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1542272604-787c62d465d1?w=600&q=80",
+        "alt": "Quần Jeans",
+        "displayOrder": 0
+      }
+    ],
+    "totalStock": 72,
+    "isFeatured": false,
+    "isNew": false,
+    "isActive": true,
+    "rating": { "average": 4.6, "count": 135 },
+    "tags": ["quần", "jeans", "giảm giá"]
+  },
+  {
+    "name": "Áo Phông Cotton Trơn",
+    "slug": "ao-phong-cotton-tron-discount",
+    "description": "Áo phông cotton 100% trơn, thoải mái",
+    "shortDescription": "Áo phông cotton",
+    "price": 590000,
+    "salePrice": 390000,
+    "costPrice": 250000,
+    "category": { "$oid": "69c66dbe35a190f20c3618fa" },
+    "brand": "MAISON",
+    "sku": "AO-PHONG-001",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80",
+        "alt": "Áo Phông",
+        "displayOrder": 0
+      }
+    ],
+    "totalStock": 120,
+    "isFeatured": false,
+    "isNew": false,
+    "isActive": true,
+    "rating": { "average": 4.5, "count": 245 },
+    "tags": ["áo phông", "cotton", "giảm giá"]
+  },
+  {
+    "name": "Áo Khoác Da Lộn",
+    "slug": "ao-khoac-da-lon-discount",
+    "description": "Áo khoác da lộn cao cấp, phong cách",
+    "shortDescription": "Áo khoác da lộn",
+    "price": 2890000,
+    "salePrice": 2190000,
+    "costPrice": 1500000,
+    "category": { "$oid": "69c66dbe35a190f20c3618fa" },
+    "brand": "MAISON",
+    "sku": "AO-DAKLON-001",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1551028719-00167b16ebc5?w=600&q=80",
+        "alt": "Áo Khoác",
+        "displayOrder": 0
+      }
+    ],
+    "totalStock": 18,
+    "isFeatured": true,
+    "isNew": false,
+    "isActive": true,
+    "rating": { "average": 4.9, "count": 56 },
+    "tags": ["áo khoác", "da lộn", "giảm giá"]
+  },
+  {
+    "name": "Giày Sneaker Trắng",
+    "slug": "giay-sneaker-trang-discount",
+    "description": "Giày sneaker trắng sạch, đa dụng",
+    "shortDescription": "Giày sneaker",
+    "price": 1590000,
+    "salePrice": 1190000,
+    "costPrice": 800000,
+    "category": { "$oid": "69c66dbe35a190f20c3618fc" },
+    "brand": "MAISON",
+    "sku": "GIAY-SNEAKER-001",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1549298916-b52a38c40df2?w=600&q=80",
+        "alt": "Giày Sneaker",
+        "displayOrder": 0
+      }
+    ],
+    "totalStock": 44,
+    "isFeatured": true,
+    "isNew": true,
+    "isActive": true,
+    "rating": { "average": 4.8, "count": 178 },
+    "tags": ["giày", "sneaker", "giảm giá"]
+  },
+  {
+    "name": "Chân Váy Xòe Midi",
+    "slug": "chan-vay-xoe-midi-discount",
+    "description": "Chân váy xòe midi thanh lịch, thoải mái",
+    "shortDescription": "Chân váy xòe",
+    "price": 990000,
+    "salePrice": 690000,
+    "costPrice": 480000,
+    "category": { "$oid": "69c66dbe35a190f20c3618fb" },
+    "brand": "MAISON",
+    "sku": "VAY-XOEMIDI-001",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1583705462279-d38a221fb67a?w=600&q=80",
+        "alt": "Chân Váy",
+        "displayOrder": 0
+      }
+    ],
+    "totalStock": 52,
+    "isFeatured": false,
+    "isNew": false,
+    "isActive": true,
+    "rating": { "average": 4.6, "count": 94 },
+    "tags": ["váy", "midi", "giảm giá"]
+  },
+  {
+    "name": "Mũ Bucket Canvas",
+    "slug": "mu-bucket-canvas-discount",
+    "description": "Mũ bucket canvas chất lượng cao",
+    "shortDescription": "Mũ bucket",
+    "price": 590000,
+    "salePrice": 390000,
+    "costPrice": 280000,
+    "category": { "$oid": "69c66dbe35a190f20c3618fe" },
+    "brand": "MAISON",
+    "sku": "MU-BUCKET-001",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1575428774223-12342f288629?w=600&q=80",
+        "alt": "Mũ Bucket",
+        "displayOrder": 0
+      }
+    ],
+    "totalStock": 88,
+    "isFeatured": false,
+    "isNew": true,
+    "isActive": true,
+    "rating": { "average": 4.5, "count": 67 },
+    "tags": ["mũ", "canvas", "giảm giá"]
+  },
+  {
+    "name": "Belt Leather Đen",
+    "slug": "belt-leather-den-discount",
+    "description": "Dây thắt lưng da cao cấp",
+    "shortDescription": "Belt leather",
+    "price": 790000,
+    "salePrice": 590000,
+    "costPrice": 380000,
+    "category": { "$oid": "69c66dbe35a190f20c3618fe" },
+    "brand": "MAISON",
+    "sku": "BELT-LEATHER-001",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&q=80",
+        "alt": "Belt",
+        "displayOrder": 0
+      }
+    ],
+    "totalStock": 45,
+    "isFeatured": false,
+    "isNew": false,
+    "isActive": true,
+    "rating": { "average": 4.7, "count": 81 },
+    "tags": ["thắt lưng", "leather", "giảm giá"]
+  },
+  {
+    "name": "Áo Hoodie Ghi",
+    "slug": "ao-hoodie-ghi-discount",
+    "description": "Áo hoodie màu ghi ấm áp",
+    "shortDescription": "Áo hoodie",
+    "price": 1290000,
+    "salePrice": 890000,
+    "costPrice": 680000,
+    "category": { "$oid": "69c66dbe35a190f20c3618fa" },
+    "brand": "MAISON",
+    "sku": "AO-HOODIE-001",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1556821552-5f94b15a9d9d?w=600&q=80",
+        "alt": "Áo Hoodie",
+        "displayOrder": 0
+      }
+    ],
+    "totalStock": 34,
+    "isFeatured": true,
+    "isNew": true,
+    "isActive": true,
+    "rating": { "average": 4.8, "count": 142 },
+    "tags": ["hoodie", "áo", "giảm giá"]
+  },
+  {
+    "name": "Quần Jogger Xám",
+    "slug": "quan-jogger-xam-discount",
+    "description": "Quần jogger xám thoải mái",
+    "shortDescription": "Quần jogger",
+    "price": 890000,
+    "salePrice": 590000,
+    "costPrice": 380000,
+    "category": { "$oid": "69c66dbe35a190f20c3618fb" },
+    "brand": "MAISON",
+    "sku": "QUAN-JOGGER-001",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1542272604-787c62d465d1?w=600&q=80",
+        "alt": "Quần Jogger",
+        "displayOrder": 0
+      }
+    ],
+    "totalStock": 67,
+    "isFeatured": false,
+    "isNew": false,
+    "isActive": true,
+    "rating": { "average": 4.6, "count": 115 },
+    "tags": ["quần", "jogger", "giảm giá"]
+  },
+  {
+    "name": "Giầy Loafer Da Bò",
+    "slug": "giay-loafer-da-bo-discount",
+    "description": "Giày loafer da bò cao cấp",
+    "shortDescription": "Giày loafer",
+    "price": 2890000,
+    "salePrice": 2190000,
+    "costPrice": 1400000,
+    "category": { "$oid": "69c66dbe35a190f20c3618fc" },
+    "brand": "MAISON",
+    "sku": "GIAY-LOAFER-001",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=600&q=80",
+        "alt": "Giày Loafer",
+        "displayOrder": 0
+      }
+    ],
+    "totalStock": 22,
+    "isFeatured": true,
+    "isNew": false,
+    "isActive": true,
+    "rating": { "average": 4.9, "count": 201 },
+    "tags": ["giày", "loafer", "giảm giá"]
+  },
+  {
+    "name": "Áo Cộc Tay Xanh Dương",
+    "slug": "ao-coc-tay-xanh-duong-discount",
+    "description": "Áo cộc tay xanh dương tươi sáng",
+    "shortDescription": "Áo cộc tay",
+    "price": 690000,
+    "salePrice": 490000,
+    "costPrice": 330000,
+    "category": { "$oid": "69c66dbe35a190f20c3618fa" },
+    "brand": "MAISON",
+    "sku": "AO-COCTAY-001",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80",
+        "alt": "Áo Cộc Tay",
+        "displayOrder": 0
+      }
+    ],
+    "totalStock": 98,
+    "isFeatured": false,
+    "isNew": true,
+    "isActive": true,
+    "rating": { "average": 4.5, "count": 88 },
+    "tags": ["áo cộc tay", "xanh dương", "giảm giá"]
+  },
+  {
+    "name": "Khăn Quàng Cổ Lông",
+    "slug": "khan-quang-co-long-discount",
+    "description": "Khăn quàng cổ lông êm ái",
+    "shortDescription": "Khăn quàng cổ",
+    "price": 790000,
+    "salePrice": 490000,
+    "costPrice": 320000,
+    "category": { "$oid": "69c66dbe35a190f20c3618fe" },
+    "brand": "MAISON",
+    "sku": "KHAN-LONG-001",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80",
+        "alt": "Khăn Quàng",
+        "displayOrder": 0
+      }
+    ],
+    "totalStock": 56,
+    "isFeatured": false,
+    "isNew": false,
+    "isActive": true,
+    "rating": { "average": 4.7, "count": 76 },
+    "tags": ["khăn", "lông", "giảm giá"]
+  },
+  {
+    "name": "Áo Cardigan Nâu",
+    "slug": "ao-cardigan-nau-discount",
+    "description": "Áo cardigan nâu thanh lịch",
+    "shortDescription": "Áo cardigan",
+    "price": 1490000,
+    "salePrice": 990000,
+    "costPrice": 700000,
+    "category": { "$oid": "69c66dbe35a190f20c3618fa" },
+    "brand": "MAISON",
+    "sku": "AO-CARDIGAN-001",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1551028719-00167b16ebc5?w=600&q=80",
+        "alt": "Áo Cardigan",
+        "displayOrder": 0
+      }
+    ],
+    "totalStock": 41,
+    "isFeatured": true,
+    "isNew": false,
+    "isActive": true,
+    "rating": { "average": 4.8, "count": 93 },
+    "tags": ["cardigan", "áo khoác", "giảm giá"]
+  }
+]

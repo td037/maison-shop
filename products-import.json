@@ -1,0 +1,887 @@
+[
+  {
+    "name": "Áo Sơ Mi Trắng Premium",
+    "slug": "áo-sơ-mi-trắng-premium",
+    "description": "Áo sơ mi trắng từ vải cotton 100% cao cấp, form dáng slimfit hiện đại",
+    "shortDescription": "Áo sơ mi trắng premium slimfit",
+    "price": 450000,
+    "salePrice": 350000,
+    "costPrice": 200000,
+    "category": "Áo",
+    "sku": "SHIRT-001",
+    "barcode": "1234567890001",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1598539900243-144331b5bae0?w=600&q=80",
+        "alt": "Áo Sơ Mi Trắng Premium",
+        "displayOrder": 1
+      }
+    ],
+    "variants": [
+      {
+        "size": "S",
+        "color": "Trắng",
+        "sku": "SHIRT-001-S",
+        "stock": 15,
+        "price": 350000
+      },
+      {
+        "size": "M",
+        "color": "Trắng",
+        "sku": "SHIRT-001-M",
+        "stock": 20,
+        "price": 350000
+      },
+      {
+        "size": "L",
+        "color": "Trắng",
+        "sku": "SHIRT-001-L",
+        "stock": 18,
+        "price": 350000
+      }
+    ],
+    "isFeatured": true,
+    "isNew": true,
+    "isActive": true,
+    "tags": ["áo", "sơ mi", "trắng"]
+  },
+  {
+    "name": "Áo Phông Đen Basic",
+    "slug": "áo-phông-đen-basic",
+    "description": "Áo phông đen cơ bản, vải jersey mềm mại, form regular",
+    "shortDescription": "Áo phông đen basic regular fit",
+    "price": 250000,
+    "salePrice": 180000,
+    "costPrice": 100000,
+    "category": "Áo",
+    "sku": "TSHIRT-001",
+    "barcode": "1234567890002",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80",
+        "alt": "Áo Phông Đen Basic",
+        "displayOrder": 1
+      }
+    ],
+    "variants": [
+      {
+        "size": "S",
+        "color": "Đen",
+        "sku": "TSHIRT-001-S",
+        "stock": 30,
+        "price": 180000
+      },
+      {
+        "size": "M",
+        "color": "Đen",
+        "sku": "TSHIRT-001-M",
+        "stock": 40,
+        "price": 180000
+      },
+      {
+        "size": "L",
+        "color": "Đen",
+        "sku": "TSHIRT-001-L",
+        "stock": 35,
+        "price": 180000
+      }
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "isActive": true,
+    "tags": ["áo phông", "đen", "basic"]
+  },
+  {
+    "name": "Áo Hoodie Xám",
+    "slug": "áo-hoodie-xám",
+    "description": "Áo hoodie xám từ vải fleece ấm áp, có nón và túi trước",
+    "shortDescription": "Áo hoodie xám fleece ấm áp",
+    "price": 550000,
+    "salePrice": 420000,
+    "costPrice": 280000,
+    "category": "Áo",
+    "sku": "HOODIE-001",
+    "barcode": "1234567890003",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1556821552-0c4465f31c45?w=600&q=80",
+        "alt": "Áo Hoodie Xám",
+        "displayOrder": 1
+      }
+    ],
+    "variants": [
+      {
+        "size": "M",
+        "color": "Xám",
+        "sku": "HOODIE-001-M",
+        "stock": 25,
+        "price": 420000
+      },
+      {
+        "size": "L",
+        "color": "Xám",
+        "sku": "HOODIE-001-L",
+        "stock": 22,
+        "price": 420000
+      }
+    ],
+    "isFeatured": true,
+    "isNew": true,
+    "isActive": true,
+    "tags": ["hoodie", "xám", "fleece"]
+  },
+  {
+    "name": "Áo Blazer Xanh Navy",
+    "slug": "áo-blazer-xanh-navy",
+    "description": "Áo blazer xanh navy form ôm nhẹ, phù hợp công sở lẫn dạo phố",
+    "shortDescription": "Áo blazer xanh navy",
+    "price": 1200000,
+    "salePrice": 850000,
+    "costPrice": 600000,
+    "category": "Áo",
+    "sku": "BLAZER-001",
+    "barcode": "1234567890013",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1539533113208-f6df8cc8b543?w=600&q=80",
+        "alt": "Áo Blazer Xanh Navy",
+        "displayOrder": 1
+      }
+    ],
+    "variants": [
+      {
+        "size": "S",
+        "color": "Navy",
+        "sku": "BLAZER-001-S",
+        "stock": 12,
+        "price": 850000
+      },
+      {
+        "size": "M",
+        "color": "Navy",
+        "sku": "BLAZER-001-M",
+        "stock": 14,
+        "price": 850000
+      },
+      {
+        "size": "L",
+        "color": "Navy",
+        "sku": "BLAZER-001-L",
+        "stock": 11,
+        "price": 850000
+      }
+    ],
+    "isFeatured": true,
+    "isNew": true,
+    "isActive": true,
+    "tags": ["blazer", "xanh navy", "công sở"]
+  },
+  {
+    "name": "Áo Cardigan Ghi Dài",
+    "slug": "áo-cardigan-ghi-dài",
+    "description": "Áo cardigan ghi dài từ vải len mềm, lớp ngoài tuyệt vời",
+    "shortDescription": "Áo cardigan ghi dài len mềm",
+    "price": 750000,
+    "salePrice": 550000,
+    "costPrice": 350000,
+    "category": "Áo",
+    "sku": "CARDIGAN-001",
+    "barcode": "1234567890017",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1551028719-00167b16ebc5?w=600&q=80",
+        "alt": "Áo Cardigan Ghi",
+        "displayOrder": 1
+      }
+    ],
+    "variants": [
+      {
+        "size": "S",
+        "color": "Ghi",
+        "sku": "CARDIGAN-001-S",
+        "stock": 16,
+        "price": 550000
+      },
+      {
+        "size": "M",
+        "color": "Ghi",
+        "sku": "CARDIGAN-001-M",
+        "stock": 20,
+        "price": 550000
+      },
+      {
+        "size": "L",
+        "color": "Ghi",
+        "sku": "CARDIGAN-001-L",
+        "stock": 18,
+        "price": 550000
+      }
+    ],
+    "isFeatured": false,
+    "isNew": true,
+    "isActive": true,
+    "tags": ["cardigan", "ghi", "len mềm"]
+  },
+  {
+    "name": "Quần Jeans Xanh Đen",
+    "slug": "quần-jeans-xanh-đen",
+    "description": "Quần jeans xanh đen slim fit, chất dễ xử lý, thoải mái",
+    "shortDescription": "Quần jeans xanh đen slim fit",
+    "price": 650000,
+    "salePrice": 480000,
+    "costPrice": 300000,
+    "category": "Quần",
+    "sku": "JEANS-001",
+    "barcode": "1234567890004",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1542272604-787c62d465d1?w=600&q=80",
+        "alt": "Quần Jeans Xanh Đen",
+        "displayOrder": 1
+      }
+    ],
+    "variants": [
+      {
+        "size": "28",
+        "color": "Xanh Đen",
+        "sku": "JEANS-001-28",
+        "stock": 20,
+        "price": 480000
+      },
+      {
+        "size": "30",
+        "color": "Xanh Đen",
+        "sku": "JEANS-001-30",
+        "stock": 25,
+        "price": 480000
+      },
+      {
+        "size": "32",
+        "color": "Xanh Đen",
+        "sku": "JEANS-001-32",
+        "stock": 22,
+        "price": 480000
+      }
+    ],
+    "isFeatured": true,
+    "isNew": false,
+    "isActive": true,
+    "tags": ["quần jeans", "xanh đen", "slim fit"]
+  },
+  {
+    "name": "Quần Khaki Beige",
+    "slug": "quần-khaki-beige",
+    "description": "Quần khaki beige regular fit, phù hợp công sở, thoải mái",
+    "shortDescription": "Quần khaki beige regular fit",
+    "price": 520000,
+    "salePrice": 380000,
+    "costPrice": 250000,
+    "category": "Quần",
+    "sku": "KHAKI-001",
+    "barcode": "1234567890005",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1473701785622-2f4ea2811b23?w=600&q=80",
+        "alt": "Quần Khaki Beige",
+        "displayOrder": 1
+      }
+    ],
+    "variants": [
+      {
+        "size": "30",
+        "color": "Beige",
+        "sku": "KHAKI-001-30",
+        "stock": 18,
+        "price": 380000
+      },
+      {
+        "size": "32",
+        "color": "Beige",
+        "sku": "KHAKI-001-32",
+        "stock": 20,
+        "price": 380000
+      }
+    ],
+    "isFeatured": false,
+    "isNew": true,
+    "isActive": true,
+    "tags": ["khaki", "beige", "công sở"]
+  },
+  {
+    "name": "Quần Chinos Đỏ Gạch",
+    "slug": "quần-chinos-đỏ-gạch",
+    "description": "Quần chinos đỏ gạch chất liệu cotton twill, form ôm vừa",
+    "shortDescription": "Quần chinos đỏ gạch cotton twill",
+    "price": 480000,
+    "salePrice": 350000,
+    "costPrice": 220000,
+    "category": "Quần",
+    "sku": "CHINOS-001",
+    "barcode": "1234567890006",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1506629082632-401e50cba665?w=600&q=80",
+        "alt": "Quần Chinos Đỏ Gạch",
+        "displayOrder": 1
+      }
+    ],
+    "variants": [
+      {
+        "size": "30",
+        "color": "Đỏ Gạch",
+        "sku": "CHINOS-001-30",
+        "stock": 15,
+        "price": 350000
+      },
+      {
+        "size": "32",
+        "color": "Đỏ Gạch",
+        "sku": "CHINOS-001-32",
+        "stock": 18,
+        "price": 350000
+      }
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "isActive": true,
+    "tags": ["chinos", "đỏ gạch", "cotton"]
+  },
+  {
+    "name": "Quần Shorts Trắng Cạp Cao",
+    "slug": "quần-shorts-trắng-cạp-cao",
+    "description": "Quần shorts trắng cạp cao, năng động, thoải mái mặc hè",
+    "shortDescription": "Quần shorts trắng cạp cao",
+    "price": 380000,
+    "salePrice": 280000,
+    "costPrice": 150000,
+    "category": "Quần",
+    "sku": "SHORTS-001",
+    "barcode": "1234567890014",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1552258338-aa924f05bcb3?w=600&q=80",
+        "alt": "Quần Shorts Trắng",
+        "displayOrder": 1
+      }
+    ],
+    "variants": [
+      {
+        "size": "XS",
+        "color": "Trắng",
+        "sku": "SHORTS-001-XS",
+        "stock": 20,
+        "price": 280000
+      },
+      {
+        "size": "S",
+        "color": "Trắng",
+        "sku": "SHORTS-001-S",
+        "stock": 25,
+        "price": 280000
+      },
+      {
+        "size": "M",
+        "color": "Trắng",
+        "sku": "SHORTS-001-M",
+        "stock": 22,
+        "price": 280000
+      }
+    ],
+    "isFeatured": false,
+    "isNew": true,
+    "isActive": true,
+    "tags": ["shorts", "trắng", "cạp cao"]
+  },
+  {
+    "name": "Quần Legging Đen",
+    "slug": "quần-legging-đen",
+    "description": "Quần legging đen form ôm nhẹ, thoải mái mặc hàng ngày",
+    "shortDescription": "Quần legging đen ôm nhẹ",
+    "price": 380000,
+    "salePrice": 280000,
+    "costPrice": 120000,
+    "category": "Quần",
+    "sku": "LEGGING-001",
+    "barcode": "1234567890018",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1506322789039-87b2f1995876?w=600&q=80",
+        "alt": "Quần Legging Đen",
+        "displayOrder": 1
+      }
+    ],
+    "variants": [
+      {
+        "size": "XS",
+        "color": "Đen",
+        "sku": "LEGGING-001-XS",
+        "stock": 30,
+        "price": 280000
+      },
+      {
+        "size": "S",
+        "color": "Đen",
+        "sku": "LEGGING-001-S",
+        "stock": 40,
+        "price": 280000
+      },
+      {
+        "size": "M",
+        "color": "Đen",
+        "sku": "LEGGING-001-M",
+        "stock": 35,
+        "price": 280000
+      }
+    ],
+    "isFeatured": false,
+    "isNew": true,
+    "isActive": true,
+    "tags": ["legging", "đen", "ôm nhẹ"]
+  },
+  {
+    "name": "Túi Xách Nữ Đen",
+    "slug": "túi-xách-nữ-đen",
+    "description": "Túi xách nữ màu đen từ da PU cao cấp, có nhiều ngăn tiện dụng",
+    "shortDescription": "Túi xách nữ đen da PU",
+    "price": 850000,
+    "salePrice": 599000,
+    "costPrice": 400000,
+    "category": "Phụ kiện",
+    "sku": "BAG-001",
+    "barcode": "1234567890007",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=600&q=80",
+        "alt": "Túi Xách Nữ Đen",
+        "displayOrder": 1
+      }
+    ],
+    "variants": [
+      {
+        "size": "One Size",
+        "color": "Đen",
+        "sku": "BAG-001-OS",
+        "stock": 25,
+        "price": 599000
+      }
+    ],
+    "isFeatured": true,
+    "isNew": true,
+    "isActive": true,
+    "tags": ["túi xách", "nữ", "đen", "da"]
+  },
+  {
+    "name": "Thắt Lưng Da Nâu",
+    "slug": "thắt-lưng-da-nâu",
+    "description": "Thắt lưng da thật nâu, có khóa kim loại chắc chắn",
+    "shortDescription": "Thắt lưng da nâu kim loại",
+    "price": 380000,
+    "salePrice": 280000,
+    "costPrice": 150000,
+    "category": "Phụ kiện",
+    "sku": "BELT-001",
+    "barcode": "1234567890008",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&q=80",
+        "alt": "Thắt Lưng Da Nâu",
+        "displayOrder": 1
+      }
+    ],
+    "variants": [
+      {
+        "size": "100cm",
+        "color": "Nâu",
+        "sku": "BELT-001-100",
+        "stock": 40,
+        "price": 280000
+      },
+      {
+        "size": "110cm",
+        "color": "Nâu",
+        "sku": "BELT-001-110",
+        "stock": 38,
+        "price": 280000
+      }
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "isActive": true,
+    "tags": ["thắt lưng", "da", "nâu"]
+  },
+  {
+    "name": "Mũ Baseball Xanh Đen",
+    "slug": "mũ-baseball-xanh-đen",
+    "description": "Mũ baseball xanh đen chất liệu cotton, có dây điều chỉnh",
+    "shortDescription": "Mũ baseball xanh đen cotton",
+    "price": 280000,
+    "salePrice": 200000,
+    "costPrice": 100000,
+    "category": "Phụ kiện",
+    "sku": "CAP-001",
+    "barcode": "1234567890009",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1523338686584-8fb6b6e55351?w=600&q=80",
+        "alt": "Mũ Baseball Xanh Đen",
+        "displayOrder": 1
+      }
+    ],
+    "variants": [
+      {
+        "size": "Free Size",
+        "color": "Xanh Đen",
+        "sku": "CAP-001-FS",
+        "stock": 50,
+        "price": 200000
+      }
+    ],
+    "isFeatured": false,
+    "isNew": true,
+    "isActive": true,
+    "tags": ["mũ", "baseball", "xanh đen"]
+  },
+  {
+    "name": "Kính Mắt Napsol Đen",
+    "slug": "kính-mắt-napsol-đen",
+    "description": "Kính mắt napsol đen bảo vệ mắt khỏi tia UV, phong cách hiện đại",
+    "shortDescription": "Kính mắt napsol đen UV",
+    "price": 650000,
+    "salePrice": 450000,
+    "costPrice": 250000,
+    "category": "Phụ kiện",
+    "sku": "SUNGLASS-001",
+    "barcode": "1234567890015",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80",
+        "alt": "Kính Mắt Napsol Đen",
+        "displayOrder": 1
+      }
+    ],
+    "variants": [
+      {
+        "size": "One Size",
+        "color": "Đen",
+        "sku": "SUNGLASS-001-OS",
+        "stock": 35,
+        "price": 450000
+      }
+    ],
+    "isFeatured": true,
+    "isNew": false,
+    "isActive": true,
+    "tags": ["kính", "napsol", "đen", "UV"]
+  },
+  {
+    "name": "Dây Chuyền Vàng Nữ",
+    "slug": "dây-chuyền-vàng-nữ",
+    "description": "Dây chuyền vàng nữ thanh lịch, vàng 10K, dài 40cm",
+    "shortDescription": "Dây chuyền vàng nữ 10K",
+    "price": 2500000,
+    "salePrice": 1850000,
+    "costPrice": 1200000,
+    "category": "Phụ kiện",
+    "sku": "NECKLACE-001",
+    "barcode": "1234567890020",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=600&q=80",
+        "alt": "Dây Chuyền Vàng Nữ",
+        "displayOrder": 1
+      }
+    ],
+    "variants": [
+      {
+        "size": "40cm",
+        "color": "Vàng",
+        "sku": "NECKLACE-001-40",
+        "stock": 12,
+        "price": 1850000
+      },
+      {
+        "size": "45cm",
+        "color": "Vàng",
+        "sku": "NECKLACE-001-45",
+        "stock": 10,
+        "price": 1850000
+      }
+    ],
+    "isFeatured": true,
+    "isNew": true,
+    "isActive": true,
+    "tags": ["dây chuyền", "vàng", "nữ", "10K"]
+  },
+  {
+    "name": "Giày Sneaker Trắng Minimalist",
+    "slug": "giày-sneaker-trắng-minimalist",
+    "description": "Giày sneaker trắng thiết kế minimalist, thoải mái để hàng ngày",
+    "shortDescription": "Giày sneaker trắng minimalist",
+    "price": 950000,
+    "salePrice": 680000,
+    "costPrice": 450000,
+    "category": "Giày dép",
+    "sku": "SHOE-001",
+    "barcode": "1234567890010",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
+        "alt": "Giày Sneaker Trắng",
+        "displayOrder": 1
+      }
+    ],
+    "variants": [
+      {
+        "size": "36",
+        "color": "Trắng",
+        "sku": "SHOE-001-36",
+        "stock": 18,
+        "price": 680000
+      },
+      {
+        "size": "37",
+        "color": "Trắng",
+        "sku": "SHOE-001-37",
+        "stock": 20,
+        "price": 680000
+      },
+      {
+        "size": "38",
+        "color": "Trắng",
+        "sku": "SHOE-001-38",
+        "stock": 22,
+        "price": 680000
+      },
+      {
+        "size": "39",
+        "color": "Trắng",
+        "sku": "SHOE-001-39",
+        "stock": 20,
+        "price": 680000
+      },
+      {
+        "size": "40",
+        "color": "Trắng",
+        "sku": "SHOE-001-40",
+        "stock": 18,
+        "price": 680000
+      }
+    ],
+    "isFeatured": true,
+    "isNew": true,
+    "isActive": true,
+    "tags": ["giày", "sneaker", "trắng", "minimalist"]
+  },
+  {
+    "name": "Giày Oxford Đen Nam",
+    "slug": "giày-oxford-đen-nam",
+    "description": "Giày oxford đen dành cho nam, từ da thật cao cấp, phù hợp công sở",
+    "shortDescription": "Giày oxford đen nam da thật",
+    "price": 1200000,
+    "salePrice": 850000,
+    "costPrice": 600000,
+    "category": "Giày dép",
+    "sku": "SHOE-002",
+    "barcode": "1234567890011",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80",
+        "alt": "Giày Oxford Đen Nam",
+        "displayOrder": 1
+      }
+    ],
+    "variants": [
+      {
+        "size": "39",
+        "color": "Đen",
+        "sku": "SHOE-002-39",
+        "stock": 14,
+        "price": 850000
+      },
+      {
+        "size": "40",
+        "color": "Đen",
+        "sku": "SHOE-002-40",
+        "stock": 16,
+        "price": 850000
+      },
+      {
+        "size": "41",
+        "color": "Đen",
+        "sku": "SHOE-002-41",
+        "stock": 15,
+        "price": 850000
+      },
+      {
+        "size": "42",
+        "color": "Đen",
+        "sku": "SHOE-002-42",
+        "stock": 12,
+        "price": 850000
+      }
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "isActive": true,
+    "tags": ["giày", "oxford", "đen", "công sở"]
+  },
+  {
+    "name": "Dép Xỏ Ngón Nâu",
+    "slug": "dép-xỏ-ngón-nâu",
+    "description": "Dép xỏ ngón nâu từ da suede mềm mại, điều chỉnh được",
+    "shortDescription": "Dép xỏ ngón nâu suede",
+    "price": 380000,
+    "salePrice": 280000,
+    "costPrice": 150000,
+    "category": "Giày dép",
+    "sku": "SANDAL-001",
+    "barcode": "1234567890012",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1462882396203-c21fefb3d5e3?w=600&q=80",
+        "alt": "Dép Xỏ Ngón Nâu",
+        "displayOrder": 1
+      }
+    ],
+    "variants": [
+      {
+        "size": "35",
+        "color": "Nâu",
+        "sku": "SANDAL-001-35",
+        "stock": 22,
+        "price": 280000
+      },
+      {
+        "size": "36",
+        "color": "Nâu",
+        "sku": "SANDAL-001-36",
+        "stock": 25,
+        "price": 280000
+      },
+      {
+        "size": "37",
+        "color": "Nâu",
+        "sku": "SANDAL-001-37",
+        "stock": 24,
+        "price": 280000
+      },
+      {
+        "size": "38",
+        "color": "Nâu",
+        "sku": "SANDAL-001-38",
+        "stock": 20,
+        "price": 280000
+      }
+    ],
+    "isFeatured": false,
+    "isNew": true,
+    "isActive": true,
+    "tags": ["dép", "xỏ ngón", "nâu", "suede"]
+  },
+  {
+    "name": "Giày Boot Da Đỏ",
+    "slug": "giày-boot-da-đỏ",
+    "description": "Giày boot đỏ từ da thật, gót cao 5cm, quyến rũ và thời trang",
+    "shortDescription": "Giày boot đỏ gót cao",
+    "price": 1100000,
+    "salePrice": 780000,
+    "costPrice": 500000,
+    "category": "Giày dép",
+    "sku": "BOOT-001",
+    "barcode": "1234567890016",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1548707283-5b0f70a4e5b1?w=600&q=80",
+        "alt": "Giày Boot Đỏ",
+        "displayOrder": 1
+      }
+    ],
+    "variants": [
+      {
+        "size": "36",
+        "color": "Đỏ",
+        "sku": "BOOT-001-36",
+        "stock": 15,
+        "price": 780000
+      },
+      {
+        "size": "37",
+        "color": "Đỏ",
+        "sku": "BOOT-001-37",
+        "stock": 17,
+        "price": 780000
+      },
+      {
+        "size": "38",
+        "color": "Đỏ",
+        "sku": "BOOT-001-38",
+        "stock": 16,
+        "price": 780000
+      },
+      {
+        "size": "39",
+        "color": "Đỏ",
+        "sku": "BOOT-001-39",
+        "stock": 14,
+        "price": 780000
+      }
+    ],
+    "isFeatured": true,
+    "isNew": true,
+    "isActive": true,
+    "tags": ["giày", "boot", "đỏ", "gót cao"]
+  },
+  {
+    "name": "Giày Lười Xanh Navy",
+    "slug": "giày-lười-xanh-navy",
+    "description": "Giày lười xanh navy từ da lộn, thoải mái, form chuẩn",
+    "shortDescription": "Giày lười xanh navy da lộn",
+    "price": 750000,
+    "salePrice": 550000,
+    "costPrice": 350000,
+    "category": "Giày dép",
+    "sku": "LOAFER-001",
+    "barcode": "1234567890019",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1552820728-8ac41f1ce891?w=600&q=80",
+        "alt": "Giày Lười Xanh Navy",
+        "displayOrder": 1
+      }
+    ],
+    "variants": [
+      {
+        "size": "37",
+        "color": "Navy",
+        "sku": "LOAFER-001-37",
+        "stock": 18,
+        "price": 550000
+      },
+      {
+        "size": "38",
+        "color": "Navy",
+        "sku": "LOAFER-001-38",
+        "stock": 20,
+        "price": 550000
+      },
+      {
+        "size": "39",
+        "color": "Navy",
+        "sku": "LOAFER-001-39",
+        "stock": 19,
+        "price": 550000
+      },
+      {
+        "size": "40",
+        "color": "Navy",
+        "sku": "LOAFER-001-40",
+        "stock": 17,
+        "price": 550000
+      }
+    ],
+    "isFeatured": false,
+    "isNew": false,
+    "isActive": true,
+    "tags": ["giày", "lười", "xanh navy", "da lộn"]
+  }
+]
